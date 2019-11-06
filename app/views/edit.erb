@@ -15,6 +15,7 @@
     <label for="ingredients">Recipe Ingredient:</label><input type="text" name="ingredients" value="<%= @recipe.ingredients%>">
     <label for="cook_time">Recipe Cook Time:</label><input type="text" name="cook_time" value="<%= @recipe.cook_time%>">
     
-    <input type="submit" name="Update" value="patch">
+    <input type="submit"  name="Update" value="patch">
 </form>
-# expect(page.find(:css, "form input[name=_method]", :visible => false)[:value]).to match(/patch/i)
+
+
